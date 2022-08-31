@@ -11,7 +11,7 @@ func BuyAndHold() *gbt.Strategy {
 	strategy := gbt.NewStrategy("buy-and-hold-yearly")
 
 	strategy.SetAlgo(
-		algo.RunYearly(),         // run on beginning of each year
+		algo.RunDaily(),          // run on beginning of each year
 		algo.CreateSignal("buy"), // always create a buy signal on a data event
 	)
 

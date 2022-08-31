@@ -24,7 +24,7 @@ func main() {
 	// create a new strategy with an algo stack and load into the backtest
 	strategy := gbt.NewStrategy("basic")
 	strategy.SetAlgo(
-		algo.RunYearly(),         // run on beginning of each year
+		algo.RunDaily(),          // run on beginning of each year
 		algo.CreateSignal("buy"), // always create a buy signal on a data event
 	)
 
