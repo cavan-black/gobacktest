@@ -13,11 +13,11 @@ func main() {
 	test := gbt.New()
 
 	// define and load symbols
-	var symbols = []string{"TEST.DE"}
+	var symbols = []string{"BAS.DE"}
 	test.SetSymbols(symbols)
 
 	// create data provider and load data into the backtest
-	data := &data.BarEventFromCSVFile{FileDir: "../testdata/test/"}
+	data := &data.BarEventFromCSVFile{FileDir: "../testdata/bar/"}
 	data.Load(symbols)
 	test.SetData(data)
 
@@ -29,7 +29,7 @@ func main() {
 	)
 
 	// create an asset and append to strategy
-	strategy.SetChildren(gbt.NewAsset("TEST.DE"))
+	strategy.SetChildren(gbt.NewAsset("BAS.DE"))
 
 	// load the strategy into the backtest
 	test.SetStrategy(strategy)

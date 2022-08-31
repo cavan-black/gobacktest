@@ -24,24 +24,7 @@ func main() {
 	// create a new strategy with an algo stack and load into the backtest
 	strategy := gbt.NewStrategy("moving-average-cross")
 	strategy.SetAlgo(
-		algo.If(
-			// condition
-			algo.And(
-				algo.BiggerThan(algo.SMA(50), algo.SMA(200)),
-				algo.NotInvested(),
-			),
-			// action
-			algo.CreateSignal("buy"), // create a buy signal
-		),
-		algo.If(
-			// condition
-			algo.And(
-				algo.SmallerThan(algo.SMA(50), algo.SMA(200)),
-				algo.IsInvested(),
-			),
-			// action
-			algo.CreateSignal("exit"), // create a sell signal
-		),
+		algo.CreateSignal("buy"), // always create a buy signal on a data event
 	)
 
 	// create an asset and append to strategy
