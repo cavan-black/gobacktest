@@ -1,8 +1,8 @@
 package strategy
 
 import (
-	gbt "github.com/dirkolbrich/gobacktest"
-	"github.com/dirkolbrich/gobacktest/algo"
+	gbt "github.com/cavan-black/gobacktest"
+	"github.com/cavan-black/gobacktest/algo"
 )
 
 // BuyAndHold is a basic strategy, which creates a buy signal on every year change

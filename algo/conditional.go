@@ -1,7 +1,7 @@
 package algo
 
 import (
-	gbt "github.com/dirkolbrich/gobacktest"
+	gbt "github.com/cavan-black/gobacktest"
 )
 
 type ifAlgo struct {

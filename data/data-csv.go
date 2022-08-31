@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	gbt "github.com/dirkolbrich/gobacktest"
+	gbt "github.com/cavan-black/gobacktest"
 )
 
 // BarEventFromCSVFile loads the market data from csv files.

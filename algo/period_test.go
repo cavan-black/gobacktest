@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	gbt "github.com/dirkolbrich/gobacktest"
+	gbt "github.com/cavan-black/gobacktest"
 )
 
 func TestAlgoRunOnce(t *testing.T) {

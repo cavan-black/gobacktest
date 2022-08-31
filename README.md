@@ -1,7 +1,7 @@
-[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/dirkolbrich/gobacktest)
-[![Travis](https://img.shields.io/travis/dirkolbrich/gobacktest.svg?style=flat-square)](https://travis-ci.org/dirkolbrich/gobacktest)
-[![Coverage Status](https://img.shields.io/coveralls/dirkolbrich/gobacktest/master.svg?style=flat-square)](https://coveralls.io/github/dirkolbrich/gobacktest?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dirkolbrich/gobacktest?style=flat-square)](https://goreportcard.com/report/github.com/dirkolbrich/gobacktest)
+[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/cavan-black/gobacktest)
+[![Travis](https://img.shields.io/travis/cavan-black/gobacktest.svg?style=flat-square)](https://travis-ci.org/cavan-black/gobacktest)
+[![Coverage Status](https://img.shields.io/coveralls/cavan-black/gobacktest/master.svg?style=flat-square)](https://coveralls.io/github/cavan-black/gobacktest?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cavan-black/gobacktest?style=flat-square)](https://goreportcard.com/report/github.com/cavan-black/gobacktest)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](/LICENSE.md)
 
 _**Heads up:** This is a framework in development, with only basic functionality._
@@ -20,9 +20,9 @@ Basic example:
 package main
 
 import (
-  "github.com/dirkolbrich/gobacktest"
-  "github.com/dirkolbrich/gobacktest/data"
-  "github.com/dirkolbrich/gobacktest/strategy"
+  "github.com/cavan-black/gobacktest"
+  "github.com/cavan-black/gobacktest/data"
+  "github.com/cavan-black/gobacktest/strategy"
 )
 
 func main() {

@@ -5,9 +5,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/dirkolbrich/gobacktest"
-	"github.com/dirkolbrich/gobacktest/data"
-	"github.com/dirkolbrich/gobacktest/strategy"
+	"github.com/cavan-black/gobacktest"
+	"github.com/cavan-black/gobacktest/data"
+	"github.com/cavan-black/gobacktest/strategy"
 )
 
 // Result bundles the result of a single backtest

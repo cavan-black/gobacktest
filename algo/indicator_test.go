@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	gbt "github.com/dirkolbrich/gobacktest"
+	gbt "github.com/cavan-black/gobacktest"
 )
 
 func TestSMAIntegration(t *testing.T) {

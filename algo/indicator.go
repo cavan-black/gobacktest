@@ -3,8 +3,8 @@ package algo
 import (
 	"fmt"
 
-	gbt "github.com/dirkolbrich/gobacktest"
-	"github.com/dirkolbrich/gobacktest/ta"
+	gbt "github.com/cavan-black/gobacktest"
+	"github.com/cavan-black/gobacktest/ta"
 )
 
 // smaAlgo is an algo which calculates the simple moving average.
